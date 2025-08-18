@@ -12,6 +12,7 @@
    Rounding is safe if $(\sum a_i^2 + \sum b_i^2)\log_2{N} < 9\cdot10^{14}$
    (in practice $10^{16}$; higher for random inputs).
    Otherwise, use NTT/FFTMod.
+	Also Correlation(a, b) is just convolution(a, reverse(b))
  * Time: O(N \log N) with $N = |A|+|B|$ ($\tilde 1s$ for $N=2^{22}$)
  * Status: somewhat tested
  * Details: An in-depth examination of precision for both FFT and FFTMod can be found
