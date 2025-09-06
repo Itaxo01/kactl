@@ -16,6 +16,9 @@
  *  ts.values[0..N-1] holds the assigned values to the vars
  * Time: O(N+E), where N is the number of boolean variables, and E is the number of clauses.
  * Status: stress-tested
+ * 
+ * Solved questions:
+ * 1) https://codeforces.com/contest/776/problem/D
  */
 #pragma once
 
